@@ -31,7 +31,7 @@
 }
 
 .image-placeholder {
-    background-color: hsl(0, 0%, 90%);
+    background-color: rgba(116, 113, 113, 0.89);
     padding: 60px
 }
 #main-text {
@@ -59,7 +59,7 @@
 
 .container2 {
     height: 500px;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -94,4 +94,36 @@
     padding-left: 90px;
     padding-right: 90px;
     margin: 0px;
+}
+
+.container3 {
+    height: 500px;
+    background-color: #E5E7EB;
+    margin-left: 120px;
+    margin-right:  120px;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container p {
+    color: #1F2937;
+    font-size:  36px;
+    font-style: italic;
+    margin-top:  160px;
+}
+
+.thunder-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.thunder-container h6 {
+    font-size: 24px;
+    margin-right: 420px;
+    
+    margin-top: -40px;
 }
