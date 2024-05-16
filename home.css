@@ -97,7 +97,7 @@
 }
 
 .container3 {
-    height: 500px;
+    height: 400px;
     background-color: #E5E7EB;
     margin-left: 120px;
     margin-right:  120px;
@@ -113,7 +113,7 @@
     color: #1F2937;
     font-size:  36px;
     font-style: italic;
-    margin-top:  160px;
+    margin-top:  100px;
 }
 
 .thunder-container {
@@ -126,4 +126,47 @@
     margin-right: 420px;
     
     margin-top: -40px;
+}
+
+.call-to-action {
+    height: 400px;
+    background-color: whitesmoke;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-div{
+    background-color: #3882F6;
+    height: 120px;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom:  70px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.text-div {
+    color: white
+}
+.text-div h4 {
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+
+.signup-div button {
+    padding-right: 20px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    margin-top: 50px;
+    
 }
